@@ -1,0 +1,13 @@
+Accuracies based on different classifier were found out to be:
+1 - Naive_bayes = 96.14%
+2 - KNN = 97.73%
+3 - SVM(rbf) = 96.30%
+4 - SVM(linear) = 97.74%
+5 - Decision Tree = 93.33%
+6 - RandomForest = 93.07%
+7 - Logistic Regression = 97.14%
+
+-->Accuracies were taken out by testing each classifier 5 times on dataset and taking the average of it.
+-->Best Classifier for this dataset is ---> SVM(Linear)
+-->After applying grid search on svm(linear) classifier we get accuracy = 97.74%
+-->For dimensionality reduction I have used principle component analysis algorithm(Just for pictorial representation of different classifiers in 2-D for better understanding).
